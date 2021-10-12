@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.english{
+    font-family: 'Poppins', sans-serif;
+}
+.arabic{
+    font-family: 'Tajawal', sans-serif;
+    text-align: right;
+}
+.home-btn a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background: #04a6e1;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 25px;
+    display: inline-block;
+}
+.back-btn a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background: #58595b;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 25px;
+    display: inline-block;
+}
+.logout-btn a{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-weight: 600;
+    background: #fff;
+    color: #2c2a25;
+    text-transform: uppercase;  
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 3px #00000014;
+}
+.about-card{
+    box-shadow: 0 0 10px 5px #00000017;
+    border-radius: 20px;
+}
+.about-img{
+    position: relative;
+    width: 100%;
+    height: 160px;
+    background: #04a6e1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.about-text{
+    background: #fff;
+    padding: 20px;
+}
+.about-img .profile-picture{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    top: 42px;
+    left: 10px;
+    background: #fff;
+    border-radius: 50%;
+}
+.about-img .profile-picture img{
+    border-radius: 50%;
+}
+.about-text-title h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #595959;
+    margin-bottom: 0;
+}
+.profile-logo{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    top: 105px;
+    left: 302px;
+}
+.profile-logo img{
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 5px;
+}
+.user-name h3{
+    position: absolute;
+    top: 72px;
+    left: 140px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+.quick-links h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #2c2a25;
+}
+.quick-links a{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #2c2a25;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px 0px #e0e0e0;
+}
+.quick-links a:hover{
+    background: #3aae2a;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+.news{
+    padding: 20px;
+    box-shadow: 0px 0 20px 0px #e0e0e0;
+}
+.news h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #2c2a25;
+}
+.news .blue{
+    border-color: #00d6de;
+}
+.news .green{
+    border-color: #3aae2a;
+}
+.news .black{
+    border-color: #2c2a25;
+}
+.news-content{
+    margin-top: 10px;
+    padding: 15px 20px;
+    border-left: 3px solid;
+    box-shadow: 0px 0 20px 0px #e0e0e0;
+}
+.news-text h5{
+    color: #344055;
+    text-transform: capitalize;
+}
+.news-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    color: #344055;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.news-content:hover{
+    background: #3aae2a;
+    transition: 1s ease-in-out;
+}
+.news-content:hover .news-text h5,.news-content:hover .news-text p{
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+.helpdask{
+    padding: 20px 20px 40px 20px;
+    box-shadow: 0px 0 20px 0px #e0e0e0;
+}
+.helpdask h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #2c2a25;
+}
+.helpdask-details span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.helpdask-details i{
+    font-size: 16px;
+    text-align: center;
+}
+.helpdask-details .helpdask-user span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.helpdask-details .helpdask-user i{
+    font-size: 20px;
+}
+
+.modules-headline h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2c2a25;
+}
+.module-box{
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px 0px #e0e0e0;
+}
+.module-box:hover .module-text{
+    background: #3aae2a;
+    border: 1px solid #3aae2a;
+    transition: 0.5s ease-in-out;
+}
+.module-icon{
+    background: #fff;
+    border: 1px solid #04a6e1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 30px 60px;
+    text-align: center;
+}
+.module-icon img{
+    width: 75px;
+    height: 75px;
+}
+.module-text{
+    background: #04a6e1;
+    border: 1px solid #04a6e1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.module-text h6{
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+}
+.for-mobile{
+    display: none;
+}
+.inner-cards .col-md-4{
+    width: 32%;
+    margin: 0 5px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px 0px #e7e7e7;
+}
+.inner-module-box .module-icon{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    line-height: 55px;
+    margin: 15px auto;
+    background: #04a6e1;
+    border: 1px solid #04a6e1;
+    border-radius: 50%;
+    padding: 30px;
+    text-align: center;
+}
+.inner-module-box .module-icon .round-ouline{
+    position: absolute;
+    top: -11px;
+    left: -11px;
+    width: 140px;
+    height: 140px;
+    border: 1px solid #04a6e1;
+    border-radius: 50%;
+}
+.inner-module-box .module-icon img{
+    width: auto;
+    height: auto;
+}
+.inner-module-box .module-text{
+    background: #fff;
+    border: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: 30px 60px;
+    text-align: center;
+}
+.inner-module-box .module-text .english{
+    color: #58595b;
+}
+.inner-module-box .module-text .arabic{
+    color: #58595b;
+}
+.horiz-inner-cards .col-md-6{
+    width: 48%;
+    margin: 0 5px;
+    padding: 0;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px 0px #e7e7e7;
+}
+.horiz-inner-module-box .module-icon{
+    width: 35%;
+    background: #04a6e1;
+    border: 1px solid #04a6e1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px 0 0 20px;
+    position: relative;
+}
+.horiz-inner-module-box .module-icon img{
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.horiz-inner-module-box .module-text{
+    width: 65%;
+    background: #fff;
+    border: 1px solid #04a6e1;
+    border-radius: 0 20px 20px 0;
+    padding: 30px 60px;
+    text-align: center;
+}
+.horiz-inner-module-box:hover .module-icon{
+    background: #3aae2a;
+    border: 1px solid #3aae2a;
+    transition: 0.5s ease-in-out;
+}
+.horiz-inner-module-box .module-text .english, .horiz-inner-module-box .module-text .arabic{
+    color: #58595b;
+    text-align: left;
+}
+.announcement-links .announcement span{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.announcement-links .announcement a{
+    color: #04a6e1 !important;
+    display: inline-block;
+    color: #2c2a25;
+    margin: 20px 0;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    text-decoration: underline;
+}
+.announcement-links .announcement a:hover{
+    background: none;
+}
+/* RESPONSIVE CSS HERE */
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+}
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+@media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+}
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    .sidebar-body{
+        width: 60% !important;
+    }
+    .profile-logo{
+        left: 350px;
+    }
+    .modules-body{
+        width: 40% !important;
+    }
+    .modules-text .col-md-4{
+        width: 100% !important;
+    }
+    .horiz-inner-cards .col-md-6{
+        width: 100%;
+    }
+    
+}
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    .sidebar-body{
+        width: 43% !important;
+    }
+    .profile-logo{
+        top: 102px;
+        left: 332px;
+    }
+    .modules-body{
+        width: 57% !important;
+    }
+    .modules-text .col-md-4{
+        width: 50% !important;
+    }
+    .about-text-title h4{
+        font-size: 16px;
+    }
+    .helpdask-details .helpdask-user span{
+        font-size: 16px;
+    }
+    .inner-cards .col-md-4{
+        width: 47% !important;
+    }
+    .horiz-inner-cards .col-md-6{
+        width: 100%;
+    }
+    
+}
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+@media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+}
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .for-mobile{
+        display: block;
+        margin-bottom: 30px;
+    }
+    .for-pc{
+        display: none;
+    }
+    .top-bar{
+        display: block !important;
+    }
+    .top-bar .logo{
+        text-align: center;
+    }
+    .top-bar-btn{
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .main-body-content{
+        flex-direction: column-reverse;
+    }
+    .profile-logo{
+        top: 104px;
+        left: 295px;
+    }
+    .user-name h3{
+        top: 65px;
+    }
+    .helpdask-details .helpdask-user span {
+        font-size: 18px;
+    }
+    .modules-text .col-md-4{
+        width: 50%;
+    }
+    .module-icon{
+        padding: 30px 40px;
+    }
+    .module-text h6{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .inner-cards .col-md-4{
+        width: 47%;
+    }
+    .horiz-inner-cards .col-md-6{
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+}
+/* RESPONSIVE CSS HERE */
